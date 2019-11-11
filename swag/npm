@@ -10,6 +10,5 @@ html-sketchapp-cli::html-sketchapp
 imageoptim-cli::imageOptim
 npmrc::npmrc
 pa11y::pa11y
-terminalizer::terminalizer
 vsce::vsce
 yo::yo
