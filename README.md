@@ -1,3 +1,19 @@
+
+
+Git clone formation
+from my Tips how to setup py virtualenv
+https://github.com/zsh-users/zsh-syntax-highlighting/blob/6d5372a937c63a565a1ff93aa6efa9a2b6179917/INSTALL.md 
+
+Vscode plugins and settings via VScode Sync
+1password
+
+Setup Alfred
+Update README
+Put DOT files in a repo 
+
+
+
+
 # 🐝 Formation <a href="https://www.patreon.com/minamarkham"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="100"></a>
 
 ![Let's get in formation](assets/formation.gif)

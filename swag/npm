@@ -12,3 +12,9 @@ npmrc::npmrc
 pa11y::pa11y
 vsce::vsce
 yo::yo
+pnpm::pnpm
+degit::degit
+esm::esm
+kill-port::kill-port
+sort-package-json::sort-package-json
+

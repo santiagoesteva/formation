@@ -7,3 +7,7 @@ hub
 yarn
 rbenv
 nvm
+gradle
+jq
+pyenv
+pyenv-virtualenv
