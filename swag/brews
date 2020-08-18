@@ -11,3 +11,5 @@ gradle
 jq
 pyenv
 pyenv-virtualenv
+perl
+subversion
