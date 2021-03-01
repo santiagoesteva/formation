@@ -15,3 +15,4 @@ perl
 subversion
 mysql@5.7
 ack
+golang
