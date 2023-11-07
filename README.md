@@ -1,20 +1,4 @@
 
-
-Git clone formation
-from my Tips how to setup py virtualenv
-https://github.com/zsh-users/zsh-syntax-highlighting/blob/6d5372a937c63a565a1ff93aa6efa9a2b6179917/INSTALL.md 
-
-Vscode plugins and settings via VScode Sync
-1password
-
-Setup Alfred
-Update README
-Put DOT files in a repo 
-
-Install Ohy my zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-
 # 🐝 Formation <a href="https://www.patreon.com/minamarkham"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="100"></a>
 
 ![Let's get in formation](assets/formation.gif)
@@ -43,6 +27,18 @@ cd formation
 ./slay 2>&1 | tee ~/slay.log
 ```
 Just follow the prompts and you’ll be fine. 👌
+
+Install Ohy my zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+Oh-my-zsh
+Clone this repository in oh-my-zsh's plugins directory:
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+Activate the plugin in ~/.zshrc:
+
+plugins=( [plugins...] zsh-syntax-highlighting)
+Restart zsh (such as by opening a new instance of your terminal emulator).
 
 :warning: Warning: I advise against running [this script](slay) unless you understand what it’s doing to your computer.
 
