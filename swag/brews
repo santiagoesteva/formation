@@ -19,3 +19,6 @@ ack
 golang
 borgbackup
 virtualenv
+awscli
+kubernetes-cli
+saml2aws

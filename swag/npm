@@ -17,4 +17,4 @@ degit::degit
 esm::esm
 kill-port::kill-port
 sort-package-json::sort-package-json
-
+playwright
