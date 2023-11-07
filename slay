@@ -74,18 +74,18 @@ chapter "Installing Dependencies…"
 # -----------------------------------------------------------------------------
 # XCode
 # -----------------------------------------------------------------------------
-if type xcode-select >&- && xpath=$( xcode-select --print-path ) &&
-	test -d "${xpath}" && test -x "${xpath}" ; then
-	print_success_muted "Xcode already installed. Skipping."
-else
-	step "Installing Xcode…"
-	xcode-select --install
-	print_success "Xcode installed!"
-fi
+# if type xcode-select >&- && xpath=$( xcode-select --print-path ) &&
+# 	test -d "${xpath}" && test -x "${xpath}" ; then
+# 	print_success_muted "Xcode already installed. Skipping."
+# else
+# 	step "Installing Xcode…"
+# 	xcode-select --install
+# 	print_success "Xcode installed!"
+# fi
 
-if [ ! -d "$HOME/.bin/" ]; then
-	mkdir "$HOME/.bin"
-fi
+# if [ ! -d "$HOME/.bin/" ]; then
+# 	mkdir "$HOME/.bin"
+# fi
 
 # -----------------------------------------------------------------------------
 # Bash-it
@@ -120,8 +120,8 @@ fi
 # Homebrew
 # -----------------------------------------------------------------------------
 if ! [ -x "$(command -v brew)" ]; then
-	step "Installing Homebrew…"
-	curl -fsS 'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby
+	step "Installing Homebrew…"	
+	curl -fsSL 'https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh' | ruby
 	export PATH="/usr/local/bin:$PATH"
 	print_success "Homebrew installed!"
 else

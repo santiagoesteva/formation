@@ -1,4 +1,5 @@
 asciinema
+zsh-syntax-highlighting
 git
 tig
 mas
@@ -17,3 +18,4 @@ mysql@5.7
 ack
 golang
 borgbackup
+virtualenv
